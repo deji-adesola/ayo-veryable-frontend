@@ -38,7 +38,7 @@ export default function OpCard({
             <strong>Operators Needed:</strong> {op.operatorsNeeded}
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            <strong>Time:</strong> {formatTime(op.startTime)} –{" "}
+            <strong>Time:</strong> {formatTime(op.startTime)} -{" "}
             {formatTime(op.endTime)}
           </Typography>
         </Stack>
